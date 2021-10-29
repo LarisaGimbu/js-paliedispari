@@ -8,9 +8,12 @@
 
 const userNumber = 3; //prompt
 
-let minEMax = getRandomNumber(1, 5);
-console.log(minEMax);
+let computerNumber = getRandomNumber(1, 5);
+console.log(computerNumber);
 
 function getRandomNumber (min, max){
   return Math.floor(Math.random()*(max - min +1) +min);
 }
+
+let somma = userNumber + computerNumber;
+console.log(somma);
